@@ -24,7 +24,7 @@
     font-size: 30px;
   }
   
-  h2 {
+  header h2 {
     display: inline-block;
     width: 25%;
     /* background-color: blue; */
@@ -34,16 +34,16 @@
     
   }
   nav {
-      background-color: white;
+      background-color: #999999;
   }
 
-  ul{
+  nav ul{
       /* background-color: red; */
       padding-left: 40px;
       font-size: 0px;
   }
 
-  li {
+ nav li {
       /* background-color: green; */
       display: inline-block;;
       font-size: 16px;
@@ -57,6 +57,52 @@
   }
 
   a:hover {
-      background-color: blue;
-      color: white;
+      background-color: white;
+      color: black;
+  }
+
+  main {
+    background-color: white;
+    font-size: 0px;
+  }
+
+  section {
+    /* background-color: red; */
+    display: inline-block;
+    font-size: 16px;
+    width: 60%;
+    border-right: 3px solid #333333;
+    Padding: 20px 20px 30px 50px;
+  }
+
+  aside {
+    /* background-color: green; */
+    display: inline-block;
+    font-size: 16px;
+    width: 40%;
+    vertical-align: top;
+    padding: 20px;
+  }
+
+  footer {
+      padding: 20px 50px;
+  }
+
+  footer p {
+      color: white
+
+  }
+
+  img {
+      max-width: 100%
+  }
+
+  section p { 
+      margin: 5px 0;
+  }
+
+  .right {
+      width: 300px;
+      float: right;
+      margin: left;
   }
